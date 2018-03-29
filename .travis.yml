@@ -6,6 +6,9 @@ sudo: false
 
 matrix:
     fast_finish: true
+    
+services:
+  - mysql
 
 language: python
 # For a list of available versions, run
